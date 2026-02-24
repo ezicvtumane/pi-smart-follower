@@ -1,0 +1,3 @@
+sudo systemctl daemon-reload
+sudo systemctl enable alicebot.service
+sudo systemctl start alicebot.service
