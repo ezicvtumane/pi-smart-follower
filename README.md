@@ -42,11 +42,11 @@
 
 2. Установите зависимости (камера Picamera2 должна быть включена в настройках ОС):
 
-    pip install -r requirements.txt
+    ```pip install -r requirements.txt
 
 3. Запустите основной скрипт:
 
-    python3 main.py
+    ```python3 main.py
 
 4. Откройте интерфейс управления в браузере смартфона или ПК (устройства должны быть в одной Wi-Fi сети):
 
@@ -60,15 +60,15 @@
 
 1. Создайте файл службы:
 
-    sudo nano /etc/systemd/system/alicebot.service
+    ```sudo nano /etc/systemd/system/alicebot.service
 
 2. Скопируйте в него содержимое файла `alicebot.service` из этого репозитория.
 
 3. Включите автозагрузку командами:
 
-    sudo systemctl daemon-reload
-    sudo systemctl enable alicebot.service
-    sudo systemctl start alicebot.service
+    ```sudo systemctl daemon-reload
+    ```sudo systemctl enable alicebot.service
+    ```sudo systemctl start alicebot.service
 
 ---
 
