@@ -39,7 +39,6 @@
 ## 🚀 Установка и запуск
 
 1. Склонируйте репозиторий на вашу Raspberry Pi:
-
 ```bash
   git clone https://github.com/ezicvtumane/pi-smart-follower.git
   cd pi-smart-follower
