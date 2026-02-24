@@ -39,19 +39,18 @@
 
     ```git clone https://github.com/ezicvtumane/pi-smart-follower.git
     cd pi-smart-follower
-
+```
 2. Установите зависимости (камера Picamera2 должна быть включена в настройках ОС):
 
     ```pip install -r requirements.txt
-
+```
 3. Запустите основной скрипт:
 
     ```python3 main.py
-
+```
 4. Откройте интерфейс управления в браузере смартфона или ПК (устройства должны быть в одной Wi-Fi сети):
 
-    http://<IP_АДРЕС_RASPBERRY>:5000
-
+    ```http://<IP_АДРЕС_RASPBERRY>:5000
 ---
 
 ## ⚙️ Автозагрузка при включении (через systemd)
