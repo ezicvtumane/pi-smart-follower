@@ -38,7 +38,7 @@
 1. Склонируйте репозиторий на вашу Raspberry Pi:
 
     ```git clone https://github.com/ezicvtumane/pi-smart-follower.git
-    cd pi-smart-follower```
+    cd pi-smart-follower
 
 2. Установите зависимости (камера Picamera2 должна быть включена в настройках ОС):
 
